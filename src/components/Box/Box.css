@@ -1,0 +1,45 @@
+.info{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 70px;
+
+}
+.info1{
+text-align: left;
+width: 30%;
+padding-left: 50px;
+padding-right:50px ;
+/* margin-left: 140px; */
+}
+.image1 img{
+width: 350px;
+height: 300px;
+}
+
+
+.info-btn button{
+    background-color: #146C94;
+    color: white;
+    width: 95px;
+    height: 35px;
+    border: none;
+    margin-top: 30px;
+
+}
+
+    @media (max-width: 660px) {
+        .info{
+            min-height: 100rem;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .info1{
+           max-width: 100px;
+        }
+        
+        
+    }

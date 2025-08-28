@@ -1,0 +1,40 @@
+.footer{
+/* margin-top: 126px;  */
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 5rem;
+padding-left: 70px;
+padding-right: 70px;
+/* margin: auto; */
+  /* border: 1px solid #ccc;
+  padding: px;
+  background-color: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  height: 320px; */
+
+background: whitesmoke;
+
+}
+
+.side-footer{
+    margin-top: 200px;
+    text-align: left;
+    
+    
+}
+
+.logo1 h1 img{
+    margin-top: 240px;
+    margin-right: 40px;
+
+}
+
+.icons{
+display: flex;
+position: absolute;
+bottom: -147rem;
+left: 70rem;
+gap: 2rem;
+}
+

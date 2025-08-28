@@ -1,0 +1,10 @@
+.box2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 3rem;
+}
+
+.info2{
+    max-width: 22rem;
+}

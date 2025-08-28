@@ -1,0 +1,61 @@
+@media (max-width:760px) {
+    section{
+        min-width: auto;
+    }
+    
+}
+
+
+
+.card{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    gap: 20px;
+    margin: 70px;
+    max-width: 15%  15%;
+}
+
+.grid{
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  
+}
+
+.img img{
+    height: 260px;
+    width: 400px;
+}
+
+.card-btn Button{
+    background: #146C94;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.section2{
+    gap: 10px;
+    max-width: 100%;
+    background: skyblue;
+    height: 170px;
+    
+}
+.unlock{
+    display: flex;
+     justify-content: space-around;
+     text-align: left;
+     width: -100px;
+     padding: 30px;
+}
+ .unlock h3{
+    font-size: 30px;
+ }
+ .unlock p{
+    font-size: 17px;
+ }

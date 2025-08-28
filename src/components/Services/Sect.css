@@ -1,0 +1,33 @@
+
+
+h4{
+    font-size: 30px;
+    max-width: 22rem;
+    margin-left: 35rem;
+        margin-top: 2rem;
+}
+.p{
+    max-width: 37rem;
+    margin-left: 26rem;
+    margin-top: 2rem;
+     
+}
+
+.text-flex{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-top: 2rem;
+
+}
+
+.text{
+    max-width: 46rem;
+    margin-left: 3rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    
+}
+
+.btn1{
+    margin-top: 2rem;
+}

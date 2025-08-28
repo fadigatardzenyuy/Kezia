@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+  @media (max-width: 675) {
+   display: flex;
+  flex-wrap: wrap;
+  /* min-height: 300px; */
+        
+    }
+}
+.hero h1{
+    padding-top: 1rem;
+    font-size: 70px;
+        
+}
+.hero{
+    background: skyblue;
+    padding: 20px;
+    height: 250px;
+}
+.text1{
+    /* padding: 40px; */
+    font-size: 19px;
+}
+.btn1 button{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: #146C94;
+    border: none;
+    color: white;
+
+}
+
+/* .sect{
+    display: flex;
+    gap: 450px;
+}
+.image1 img{
+
+    max-width: 20px;
+    height: 250px;
+    margin-top: 100px; 
+}
+img{
+    margin-right: 200px;
+}
+.text{
+    margin-top: 170px;
+    padding-left: 190px;
+}
+.text p{
+    text-align: left;
+    margin-left: 50px;
+}
+.btn2{
+margin-left: 240px;
+width: 60px;
+margin-top: -40px;
+}
+.sect1{
+    display: flex;
+    gap: 200px;
+    margin: 290px;
+    margin-bottom: 90px;
+    padding: -40px;
+     
+}
+
+.image2 img{
+    width: 200px;
+    height: 200px;
+    margin-right: 280px;
+    margin-left: -40px;
+    margin-top: 90px;
+    
+}
+
+.text2 {
+    margin-top: 70px;
+    
+    margin-right: -98px;
+}
+.text2 p{
+    text-align: left;
+    width: 129%;
+}
+.list{
+    list-style: none;
+    line-height: 40px;
+    margin: 20px;
+    /* margin-right: 40px; */
+
+    
+/* }
+.bpoints{
+    position: relative;
+    top: -120px;
+    padding-right: 150px;
+    
+    
+}
+ */ 

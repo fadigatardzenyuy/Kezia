@@ -1,0 +1,41 @@
+header{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  align-items: center;
+   
+}
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+.nav-btn button{
+  width: 80px;
+  height: 35px;
+  background: #146C94;
+  border: none;
+  color: white;
+}
+.nav-btn button:hover{
+  background-color: #084d6d;
+}
+
+@media(max-width:675){
+  header .navbar{
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 300px;
+
+  }
+}

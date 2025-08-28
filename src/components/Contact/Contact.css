@@ -1,0 +1,30 @@
+.Tell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+  padding-right: 70px;
+}
+
+.Tell-prop{
+line-height: 30px;
+text-align: left;
+}
+
+.email{
+    color: #146C94;
+}
+.below{
+    /* position: relative;
+    top: 4rem; */
+    margin-top: 60px;
+
+    
+}
+.exclusive{
+    color: #41131A;
+}
+.sign{
+    color: #565D6D;
+}
+
